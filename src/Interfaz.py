@@ -45,8 +45,8 @@ textfMuestreo = Label (root, text = " Seleccione la frecuencia de muesreo desead
 
 #command indica cual de las funciones definidas arriba se lleva a cabo al presionar el boton
 boton1min = Button(root, text = "1 minuto", command = funct1Min, fg = "#4D33FF", bg = "#33FFED", padx = 30, pady = 15) #fg = frontground color, bg = background color
-boton5min = Button(root, text = "5 minutos", command = funct5Min, fg = "#4D33FF", bg = "#33FFED", padx = 30, pady = 15)#padx = tama;o del boton en x
-boton10min = Button(root, text = "10 minutos", command = funct10Min, fg = "#4D33FF", bg = "#33FFED", padx = 30, pady = 15)#pady = tama;o del boton en y
+boton5min = Button(root, text = "5 minutos", command = funct5Min, fg = "#4D33FF", bg = "#33FFED", padx = 29, pady = 15)#padx = tama;o del boton en x
+boton10min = Button(root, text = "10 minutos", command = funct10Min, fg = "#4D33FF", bg = "#33FFED", padx = 28, pady = 15)#pady = tama;o del boton en y
 
 #----------------------organizacion de la ventana-----------------------------------------
 #el siguiente pedazo de codigo es una alternativa para .pack(). grid posiciona el texto en filas y columnas, 
