@@ -19,16 +19,16 @@ root.geometry("600x300")#Tamano de la ventana. La x debe ser minuscula
 #####################FUNCIONES########################################################################
 
 def funct1Min():
-    tiempo1 = Label(root, text = "Tiempo1")
+    tiempo1 = Label(root, text = "1")
     tiempo1.grid(row = 5 , column = 1)# la posicion del texto que despliega la funcion se
     #debe colocar dentro de la funcion, de lo contraro no reconoce la variable tiempo1
 
 def funct5Min():
-    tiempo5 = Label(root, text = "Tiempo5")
+    tiempo5 = Label(root, text = "5")
     tiempo5.grid(row = 6 , column = 1)
 
 def funct10Min():
-    tiempo10 = Label(root, text = "Tiempo10")
+    tiempo10 = Label(root, text = "10")
     tiempo10.grid(row = 7 , column = 1)
 
 
